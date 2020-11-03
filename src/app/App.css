@@ -1,0 +1,66 @@
+/*=== video ===*/
+.video {
+	position: relative;
+	margin-bottom: 3rem;
+	position: relative;
+	border-radius: 1rem !important;
+}
+.video-content {
+	background-color: white;
+	margin-top: 0;
+	border-radius: 1rem;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	width: 100%;
+	margin: auto;
+	padding: 2rem 1rem 0.5rem 1rem;
+	margin-top: -1rem;
+}
+.button {
+	position: absolute;
+	bottom: 1rem;
+	right: 1rem;
+	padding: 0.5rem 1rem;
+	background-color: #1B1B2B;
+	color: #fff !important;
+	border-radius: 0.5rem;
+}
+.drone-name {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	color: white;
+	font-size: 1.5rem;
+}
+.mark {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	background-color: transparent !important;
+    color: white;
+    cursor: pointer;
+}
+/*=== end video ===*/
+
+/*=== video detail ===*/
+.wrong-item  {
+  display: flex;
+  margin-top: 2rem;
+}
+.wrong-item:first-child {
+  margin-top: 0;
+}
+.icon {
+  margin-right: 1rem;
+}
+.desc {
+  margin-left: auto;
+  color: green;
+}
+.card-button {
+  margin-top: 2rem !important;
+  float: right;
+}
+.form {
+	width: 100% !important;
+}
+/*=== end video detail ===*/

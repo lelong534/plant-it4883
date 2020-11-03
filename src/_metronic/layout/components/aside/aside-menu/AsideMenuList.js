@@ -33,6 +33,53 @@ export function AsideMenuList({ layoutProps }) {
 
           {/*begin::1 Level*/}
           <li
+              className={`menu-item ${getMenuItemActive("/auto-detection", false)}`}
+              aria-haspopup="true"
+          >
+            <NavLink className="menu-link" to="/auto-detection">
+            <span className="svg-icon menu-icon">
+              <SVG src={toAbsoluteUrl("/media/svg/icons/Design/Layers.svg")}/>
+            </span>
+              <span className="menu-text">Sự cố phát hiện tự động</span>
+            </NavLink>
+          </li>
+          {/*end::1 Level*/}
+
+          {/*begin::1 Level*/}
+
+          {/*begin::1 Level*/}
+          <li
+              className={`menu-item ${getMenuItemActive("/video-detail", false)}`}
+              aria-haspopup="true"
+          >
+            <NavLink className="menu-link" to="/video-detail">
+            <span className="svg-icon menu-icon">
+              <SVG src={toAbsoluteUrl("/media/svg/icons/Design/Layers.svg")}/>
+            </span>
+              <span className="menu-text">Chi tiết sự cố</span>
+            </NavLink>
+          </li>
+          {/*end::1 Level*/}
+
+          {/*begin::1 Level*/}
+          <li
+              className={`menu-item ${getMenuItemActive("/follow", false)}`}
+              aria-haspopup="true"
+          >
+            <NavLink className="menu-link" to="/follow">
+            <span className="svg-icon menu-icon">
+              <SVG src={toAbsoluteUrl("/media/svg/icons/Design/Layers.svg")}/>
+            </span>
+              <span className="menu-text">Theo dõi sự cố</span>
+            </NavLink>
+          </li>
+          {/*end::1 Level*/}
+
+          {/*begin::1 Level*/}
+
+          {/*begin::1 Level*/}
+
+          <li
               className={`menu-item ${getMenuItemActive("/builder", false)}`}
               aria-haspopup="true"
           >
